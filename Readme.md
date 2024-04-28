@@ -27,7 +27,7 @@ Convert text to audio with ease using this simple web application built with Str
 3. Install the library:
    
    ```bash
-   pip install pyttsx3
+   pip install gTTS
    ```
 4. Run the Streamlit app:
 
@@ -46,11 +46,11 @@ Convert text to audio with ease using this simple web application built with Str
 ## Technologies Used
 
 - [Streamlit](https://streamlit.io/): For building the interactive web application.
-- [pyttsx3](https://pyttsx3.readthedocs.io/en/latest/index.html): For text-to-speech synthesis.
+- [gtts](https://gtts.readthedocs.io/en/latest/): For text-to-speech synthesis.
 - [Python](https://www.python.org/): Programming language used for development.
 
 ## Credits
 
-This project utilizes the `pyttsx3` library for text-to-speech conversion. Special thanks to the developers and contributors of `pyttsx3` for their work.
+This project utilizes the `gtts` library for text-to-speech conversion. Special thanks to the developers and contributors of `gtts` for their work.
 
 
