@@ -16,7 +16,7 @@ Convert text to audio with ease using this simple web application built with Str
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/your_username/text-to-audio.git
+    git clone https://github.com/Santhoshi0708/Text-to-audio-conveter
     ```
 
 2. Install the streamlit libray:
