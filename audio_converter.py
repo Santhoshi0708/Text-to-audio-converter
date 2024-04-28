@@ -1,10 +1,9 @@
 import streamlit as st
-import pyttsx3
+from gtts import gTTS
 
 def text_to_audio(text,audio_file):
-    speech=pyttsx3.init()
-    speech.save_to_file(text,audio_file)
-    speech.runAndWait()
+    tts = gTTS(text)
+    tts.save(audio_file)
 
 # Main function
 def main():
